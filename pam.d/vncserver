@@ -1,0 +1,4 @@
+# Default VNC Server PAM configuration. Remove this comment if you want to keep this configuration file when you uninstall VNC Server
+# login: auth account password session
+account    required     pam_opendirectory.so
+auth       required     pam_opendirectory.so
